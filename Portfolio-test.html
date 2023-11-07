@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-test</title>
+
+    <link rel="stylesheet" href="Portfolio-test.css">
+
+    <script src="https://kit.fontawesome.com/f821b57119.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="big-section">
+        <!-- header -->
+        <header>
+            <!-- nav -->
+            <nav>
+                <div>
+                    <a href="#"><button type="button">Home</button></a>
+                    <a href="#about"><button type="button">About</button></a>
+                    <a href="#projects"><button type="button">Projects</button></a>
+                    <a href="#contact"><button type="button">Contact</button></a>
+                </div>
+                <div>
+                    <button class="fa-solid fa-palette" id="color-mode"></button>
+                    <a href="https://github.com/yujinjjang2" target="_blank"><button type="button" class="fa-brands fa-github"></button></a>
+                    <a href="https://velog.io/@o3odw98" target="_blank"><button type="button" class="fa-solid fa-pen-to-square"></button></a>
+                </div>
+            </nav>
+
+            <div>
+                <div>
+                    <img src="images/profile.png" id="profile">
+                </div>
+                <div>
+                    <div>
+                        Hello <br>
+                        This is Lee Yu-jin , <br>
+                        a prospective developer ! <br><br>
+
+                        A Multi talented software developer
+                    </div>
+                    <div>
+                        <a href="#" target="_blank"><button type="button" id="resume-btn">Download My Resume</button></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- main -->
+        <main>
+            <!-- About -->
+            <section class="about" id="about">
+                <div>
+                    About
+                </div>
+                <div>
+                    안녕하세요 , 예비 개발자를 꿈꾸는 이유진입니다 !
+                </div>
+                <div>
+                    NAME : 이유진 <br>
+                    BIRTHDAY : 1998-09-03 <br>
+                    ADDRESS : 서울시 성북구 <br>
+                    PHONE : 010-2485-4855 <br>
+                    EMAIL : o3odw98@gmail.com <br><br>
+
+                    “ No pain, No gain 고통없이 얻는 것은 없다. ” <br>
+                    제가 마음 속에 항상 새기는 문장입니다. <br>
+                    힘든 순간이 찾아와도 끈기를 가지고 맡은 일을 마무리하고자 합니다. <br>
+                    JAVA, JS, CSS, HTML 등 다양한 언어를 공부하며 개발에 대한 관심 및 분야를 넓히고 있습니다.
+                </div>
+                <div>
+                   <div></div> 
+                   <div>
+                        <a href="#" target="_blank"><button type="button" id="hire-btn">Hire Me</button></a>
+                   </div> 
+                   <div>
+                        <a href="#"><button type="button" class="fa-solid fa-angles-up" id="up-btn"></button></a>
+                   </div> 
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section class="projects" id="projects">
+                <div>
+                    Projects
+                </div>
+                <div class="youtube">
+                    <div>
+                        <img src="images/youtube_img.png" id="youtube-img">
+                    </div>
+                    <div>
+                        <div>
+                            Youtube Clone
+                        </div>
+                        <div>
+                            유튜브 클론은 제 첫번째 프로젝트 결과물입니다.
+                        </div>
+                        <div>
+                            <a href="https://github.com/yujinjjang2/CLONE_YOUTUBE_mob" target="_blank"><u>See More...</u></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="naver">
+                    <div>
+                        <div>
+                            Naver Clone
+                        </div>
+                        <div>
+                            네이버 클론은 제 두번째 프로젝트 결과물입니다.
+                        </div>
+                        <div>
+                            <a href="https://github.com/yujinjjang2/CLONE_NAVER" target="_blank"><u>See More...</u></a>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/naver_img.png" id="naver-img">
+                    </div>
+                </div>
+                <div>
+                    <div></div>
+                    <div>
+                        <a href="#"><u>View All Projects...</u></a>
+                    </div>
+                    <div>
+                        <a href="#"><button type="button" class="fa-solid fa-angles-up" id="up-btn"></button></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- footer -->
+        <footer id="contact">
+            <div>
+                Contact Me
+            </div>
+            <div>
+                채용을 원하시면 바로 연락드리겠습니다.
+            </div>
+            <div>
+                <div></div>
+                <div>
+                    <form action="#" target="_blank" id="form">
+                        <input type="text" id="form-name" name="name" placeholder="Name(한글 2자이상 5자이하)" autocomplete="off">
+                        <span id="span-name"></span>
+                        <input type="text" id="form-email" name="email" placeholder="Email" autocomplete="off">
+                        <span id="span-email"></span>
+                        <input type="text" id="form-body" name="body" placeholder="Body" autocomplete="off">
+
+                        <button type="submit" id="send-btn">Send</button>
+                    </form>
+                </div>
+                <div>
+                    <a href="#"><button type="button" class="fa-solid fa-angles-up" id="up-btn"></button></a>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="Portfolio-test.js"></script>
+</body>
+</html>
